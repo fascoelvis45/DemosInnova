@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.bootply.com/render/129806 -->
+<html lang="en"><script async="" src="./Bootply snippet - Bootstrap Section scroller template_files/analytics.js"></script><script id="tinyhippos-injected">if (window.top.ripple) {
+        window.top.ripple("bootstrap").inject(window, document);
+    }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta charset="utf-8">
+        <title>Bootply snippet - Bootstrap Section scroller template</title>
+        <meta name="generator" content="Bootply">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Navbar full width form, full page height sections. Bootstrap nav that contains a fluid search form that takes up the remaining (full width) space in t">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" href="http://www.bootply.com/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-114x114.png">
+
+        <link href="./Bootply snippet - Bootstrap Section scroller template_files/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+   
+
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+
+        <style type="text/css">
+            /*
+A custom Bootstrap 3.1 template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+            */
+
+            html,body {
+                height:100%;
+                background:center no-repeat fixed url('Bootply snippet - Bootstrap Section scroller template_files/fondo_bosque.jpg');
+                background-size: cover;
+            }
+
+            .icon-bar {
+                background-color:#fff;
+            }
+
+            .navbar-trans {
+                background-color:#279ddd;
+                color:#fff;
+            }
+
+            .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+                background-color:#38afef;
+            }
+
+            .navbar-trans a{
+                color:#fefefe;
+            }
+
+            .navbar-trans .form-control:focus {
+                border-color: #eee;
+                outline: 0;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+            }
+
+            section {
+                padding-top:70px;  
+                padding-bottom:50px; 
+                min-height:calc(100% - 1px);
+            }
+
+            .v-center {
+                padding-top:10%;
+                font-size:70px;
+            }
+
+            .well {
+                border-color:transparent;
+            }
+
+            a.list-group-item.active,[class*='-info'] {
+                background-color: #168ccc;
+                color:#fff;
+            }
+
+            #section1 {
+                background-color: #168ccc;
+                color:#dedeff;
+            }
+
+            #section2 {
+                background-color: #e5e5ef;
+                color:#686868;
+            }
+
+            #section3 {
+                background-color: #168ccc;
+                color:#ddd;
+            }
+
+            #section4 {
+                background-color: #fff;
+                color:#444;
+            }
+
+            #section5,#section7,#section7 a {
+                color:#f5f5f5;
+            }
+
+            #section6 {
+                background-color: #168ccc;
+                color:#ddd;
+            }
+
+            footer {
+                background-color:#494949;
+                color:#ddd;
+                min-height:100px;
+                padding-top:20px;
+                padding-bottom:40px;
+            }
+
+            footer .nav>li>a {
+                padding:3px;
+                color:#ccc;
+            }
+
+            footer .nav>li>a:hover {
+                background-color:transparent;
+                color:#fff;
+            }
+        </style>
+        <script id="_carbonads_projs" type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/C6AILKT.json"></script></head>
+
+    <!-- HTML code from Bootply.com editor -->
+
+    <body>
+
+        <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">INNOVA</a>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-collapsible">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class=""><a href="#section1">Home</a></li>
+                        <li class=""><a href="#section2">Nosotros</a></li>
+                        <li class=""><a href="#section3">Red De Atencion</a></li>
+                        <li class=""><a href="#section4">Four</a></li>
+                        <li class=""><a href="#section5">Five</a></li>
+                        <li class=""><a href="#section6">Why</a></li>
+                        <li class="active"><a href="#section7">Who</a></li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <form class="navbar-form">
+                        <div class="form-group" style="display:inline;">
+                            <div class="input-group"> 
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://www.bootply.com/render/129806#">Category 1</a></li>
+                                        <li><a href="http://www.bootply.com/render/129806#">Category 2</a></li>
+                                        <li><a href="http://www.bootply.com/render/129806#">Category 3</a></li>
+                                        <li><a href="http://www.bootply.com/render/129806#">Category 4</a></li>
+                                        <li><a href="http://www.bootply.com/render/129806#">Category 5</a></li> 
+                                    </ul>
+                                </div>
+                                <input type="text" class="form-control" placeholder="What are searching for?">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container-fluid" id="section1">
+            <h3 class="text-center v-center" style="color: white;"><b>MAQUINARIAS INNOVA SRL.</b></h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-2 text-center"><h3>Robust</h3><p>There is other content and snippets of details or features that can be placed here..</p><i class="fa fa-cog fa-5x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 text-center"><h3>Simple</h3><p>You may also want to create content that compells users to scroll down more..</p><i class="fa fa-user fa-5x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="row">
+                            <div class="col-sm-10 text-center"><h3>Clean</h3><p>In the first 30 seconds of a user's visit to your site they decide if they're going to stay..</p><i class="fa fa-mobile fa-5x"></i></div>
+                        </div>
+                    </div>
+                </div><!--/row-->
+                <div class="row"><br></div>
+            </div><!--/container-->
+        </section>
+
+        <section class="container-fluid" id="section2">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <h1><b>¿QUE HACE EN INNOVA?</b></h1>
+                    <br>
+
+
+                    <p class="lead"> Maquinarias Innova S.R.L., una organización con amplia experiencia en el manejo
+                        de maquinaria agro industrial, que se perfila como una empresa sólida y confiable.</p>
+
+                    <p class="lead"> Contamos con un staff de profesionales, técnicos altamente 
+                        capacitados y especializados que buscan el óptimo desempeño y cumplir
+                        las exigencias de nuestros clientes.</p>
+
+                    <p class="lead"> En el presente nuestra capacidad se ha perfeccionado 
+                        de acuerdo con el adelanto tecnológico que se desarrolla en 
+                        toda la industria nacional en la fabricación de maquinaria y equipo agro industrial.</p>
+
+                    <br> 
+                    <!--                    <i style="font-size:120px" class="fa fa-facebook fa-5x"></i>-->
+                    <i style="font-size:120px" class="glyphicon glyphicon-wrench"></i>
+                    <!--                    <p>Big 'ol Camera Icon</p>-->
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid" id="section3">
+            <h1 class="text-center">RED DE ATENCION</h1>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h3 class="text-center">Vertical scrolling has become a popular and lasting trend in Web design.</h3>
+                    <div class="row">
+                        <div class="col-xs-4 col-xs-offset-1">Some brand-tacular designs even have home page content that is taller that 12,000 pixels. That's a lotta content.</div>
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-4 text-right">Anyhoo, this is just some random blurb of text, and Bootply.com is a playground and code editor for Bootstrap.</div>
+                    </div>
+                    <p class="text-center">
+                        <img src="./Bootply snippet - Bootstrap Section scroller template_files/mapa_peru_gris.png" class="img-responsive center-block ">
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid" id="section4">
+            <!--            <h2 class="text-center">Change this Content. Change the world.</h2>-->
+            <div class="row">
+                <!--                <div class="col-sm-8 col-sm-offset-2">
+                                    <img src="./Bootply snippet - Bootstrap Section scroller template_files/bg_smartphones.jpg" class="img-responsive center-block ">
+                                    <p class="text-center">Images will scale down proportionately as browser width narrows.</p>
+                                </div>-->
+
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                    </ol>
+                    
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Example headline.</h1>
+                                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Another example headline.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Learn more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>One more for good measure.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Browse gallery</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> 
+            </div>
+        </section>
+
+        <section class="container-fluid" id="section5">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="list-group">
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item active">
+                                    <h2 class="list-group-item-heading">Basic</h2>
+                                    <h6>Free to get started</h6>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 100 - more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 2 - this is more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 3 GB</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 4</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Feature</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Feature</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <button class="btn btn-primary btn-lg btn-block">Get Started</button>
+                                </a>
+                            </div>
+                        </div><!--/left-->
+
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="list-group text-center">
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item active">
+                                    <h2 class="list-group-item-heading">Better</h2>
+                                    <h6>Most popular plan</h6>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 200 - more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 2 - this is more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 5 GB</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 6</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Feature</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Feature</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <button class="btn btn-default btn-lg btn-block">$10 per month</button>
+                                </a>
+                            </div>
+                        </div><!--/middle-->
+
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="list-group text-right">
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item active">
+                                    <h2 class="list-group-item-heading">Best</h2>
+                                    <h6>For enterprise grade</h6>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 100 - more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 2 - this is more about this</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 8 GB</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Option 10</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Unlimited</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <p class="list-group-item-text">Unlimited</p>
+                                </a>
+                                <a href="http://www.bootply.com/render/129806#" class="list-group-item">
+                                    <button class="btn btn-default btn-lg btn-block">$20 per month</button>
+                                </a>
+                            </div>
+                        </div><!--/right-->
+
+                    </div><!--/row-->
+                </div><!--/container--> 
+            </div>
+        </section>
+
+        <section class="container-fluid" id="section6">
+            <h2 class="text-center">Do you see what I mean?</h2>
+            <p class="text-center lead">Add some compelling information here</p>
+            <img src="./Bootply snippet - Bootstrap Section scroller template_files/bg_iphone.png" class="img-responsive center-block ">
+
+        </section>
+
+        <section class="container" id="section7">
+            <h1 class="text-center">Social Media Fascination</h1>
+            <div class="row">
+                <!--fontawesome icons-->
+                <div class="col-sm-1 col-sm-offset-2 col-xs-4 text-center">
+                    <i class="fa fa-github fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-foursquare fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-facebook fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-pinterest fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-google-plus fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-twitter fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-dribbble fa-4x"></i>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <i class="fa fa-instagram fa-4x"></i>
+                </div>
+            </div><!--/row-->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br><br>
+                    <p>
+                        <a href="http://www.bootstrapzero.com/bootstrap-template/sectionalize">Get the code for this template.</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">    
+                    <div class="col-xs-6 col-sm-6 col-md-3 column">          
+                        <h4>Information</h4>
+                        <ul class="nav">
+                            <li><a href="http://www.bootply.com/render/about-us.html">Products</a></li>
+                            <li><a href="http://www.bootply.com/render/about-us.html">Services</a></li>
+                            <li><a href="http://www.bootply.com/render/about-us.html">Benefits</a></li>
+                            <li><a href="http://www.bootply.com/render/elements.html">Developers</a></li>
+                        </ul> 
+                    </div>
+                    <div class="col-xs-6 col-md-3 column">          
+                        <h4>Follow Us</h4>
+                        <ul class="nav">
+                            <li><a href="http://www.bootply.com/render/129806#">Twitter</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Facebook</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Google+</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Pinterest</a></li>
+                        </ul> 
+                    </div>
+                    <div class="col-xs-6 col-md-3 column">          
+                        <h4>Contact Us</h4>
+                        <ul class="nav">
+                            <li><a href="http://www.bootply.com/render/129806#">Email</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Headquarters</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Management</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Support</a></li>
+                        </ul> 
+                    </div>
+                    <div class="col-xs-6 col-md-3 column">          
+                        <h4>Customer Service</h4>
+                        <ul class="nav">
+                            <li><a href="http://www.bootply.com/render/129806#">About Us</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Delivery Information</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Privacy Policy</a></li>
+                            <li><a href="http://www.bootply.com/render/129806#">Terms &amp; Conditions</a></li>
+                        </ul> 
+                    </div>
+                </div><!--/row-->
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/jquery.min.js"></script>
+
+
+        <script type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+
+        <script type="text/javascript">
+
+    $(document).ready(function () {
+
+        /* activate scrollspy menu */
+        $('body').scrollspy({
+            target: '#navbar-collapsible',
+            offset: 50
+        });
+
+        /* smooth scrolling sections */
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 50
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+
+
+    });
+
+        </script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-40413119-1', 'bootply.com');
+            ga('send', 'pageview');
+        </script>
+
+
+        <style>
+            .ad {
+                position: absolute;
+                bottom: 70px;
+                right: 48px;
+                z-index: 992;
+                background-color:#f3f3f3;
+                position: fixed;
+                width: 155px;
+                padding:1px;
+            }
+
+            .ad-btn-hide {
+                position: absolute;
+                top: -10px;
+                left: -12px;
+                background: #fefefe;
+                background: rgba(240,240,240,0.9);
+                border: 0;
+                border-radius: 26px;
+                cursor: pointer;
+                padding: 2px;
+                height: 25px;
+                width: 25px;
+                font-size: 14px;
+                vertical-align:top;
+                outline: 0;
+            }
+
+            .carbon-img {
+                float:left;
+                padding: 10px;
+            }
+
+            .carbon-text {
+                color: #888;
+                display: inline-block;
+                font-family: Verdana;
+                font-size: 11px;
+                font-weight: 400;
+                height: 60px;
+                margin-left: 9px;
+                width: 142px;
+                padding-top: 10px;
+            }
+
+            .carbon-text:hover {
+                color: #666;
+            }
+
+            .carbon-poweredby {
+                color: #6A6A6A;
+                float: left;
+                font-family: Verdana;
+                font-size: 11px;
+                font-weight: 400;
+                margin-left: 10px;
+                margin-top: 13px;
+                text-align: center;
+            }
+        </style>
+        <div class="ad collapse in">
+            <button class="ad-btn-hide" data-toggle="collapse" data-target=".ad">×</button>
+            <script async="" type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/carbon.js" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="http://srv.carbonads.net/ads/click/x/GTND423ICAYD4K77F6Y4YKQWCKSIT23JCTADPZ3JCE7I5K3NCW7I55QKC6BDC27EC67DTK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-img" target="_blank"><img src="./Bootply snippet - Bootstrap Section scroller template_files/23416" alt="" border="0" height="100" width="130" style="max-width:130px;"></a><a href="http://srv.carbonads.net/ads/click/x/GTND423ICAYD4K77F6Y4YKQWCKSIT23JCTADPZ3JCE7I5K3NCW7I55QKC6BDC27EC67DTK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-text" target="_blank">Become an engineer - join MakerSquare's 12-week immersive JavaScript classes.</a></span><a href="http://carbonads.net/" class="carbon-poweredby" target="_blank">ads via Carbon</a></span></div>
+        </div>
+
+
+    </body></html>
