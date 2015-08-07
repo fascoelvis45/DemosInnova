@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<!-- saved from url=(0036)http://www.bootply.com/render/129806 -->
-<html lang="en"><script async="" src="./Bootply snippet - Bootstrap Section scroller template_files/analytics.js"></script><script id="tinyhippos-injected">if (window.top.ripple) {
-        window.top.ripple("bootstrap").inject(window, document);
-    }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+<html lang="en"> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta charset="utf-8">
-        <title>Bootply snippet - Bootstrap Section scroller template</title>
-        <meta name="generator" content="Bootply">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Navbar full width form, full page height sections. Bootstrap nav that contains a fluid search form that takes up the remaining (full width) space in t">
-        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <title>Template </title> 
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> 
         <link rel="apple-touch-icon" href="http://www.bootply.com/bootstrap/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-114x114.png">
-
+        <link rel="apple-touch-icon" sizes="114x114" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-114x114.png"> 
         <link href="./Bootply snippet - Bootstrap Section scroller template_files/font-awesome.min.css" type="text/css" rel="stylesheet">
-        <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
-
+        <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-   
 
-
-
-
-
-        <!-- CSS code from Bootply.com editor -->
 
         <style type="text/css">
-            /*
-A custom Bootstrap 3.1 template
-from http://bootply.com
 
-This CSS code should follow the 'bootstrap.css'
-in your HTML file.
-
-license: MIT
-author: bootply.com
-            */
 
             html,body {
                 height:100%;
@@ -141,9 +116,7 @@ author: bootply.com
             }
         </style>
         <script id="_carbonads_projs" type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/C6AILKT.json"></script></head>
-
-    <!-- HTML code from Bootply.com editor -->
-
+ 
     <body>
 
         <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
@@ -155,7 +128,7 @@ author: bootply.com
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">INNOVA</a>
+                    <a class="navbar-brand" href="#"><b>INNOVA</b></a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar-collapsible">
                     <ul class="nav navbar-nav navbar-left">
@@ -274,7 +247,7 @@ author: bootply.com
                         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
                     </ol>
-                    
+
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
@@ -282,11 +255,11 @@ author: bootply.com
                                 <div class="carousel-caption">
                                     <h1>Example headline.</h1>
                                     <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="item">
                             <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
                             <div class="container">
@@ -297,7 +270,7 @@ author: bootply.com
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="item">
                             <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
                             <div class="container">
@@ -525,34 +498,34 @@ author: bootply.com
 
         <script type="text/javascript">
 
-    $(document).ready(function () {
+            $(document).ready(function () {
 
-        /* activate scrollspy menu */
-        $('body').scrollspy({
-            target: '#navbar-collapsible',
-            offset: 50
-        });
+                /* activate scrollspy menu */
+                $('body').scrollspy({
+                    target: '#navbar-collapsible',
+                    offset: 50
+                });
 
-        /* smooth scrolling sections */
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top - 50
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
+                /* smooth scrolling sections */
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top - 50
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
 
 
-    });
+            });
 
         </script>
 
-        <script>
+<!--        <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
                 i[r] = i[r] || function () {
@@ -566,10 +539,10 @@ author: bootply.com
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-40413119-1', 'bootply.com');
             ga('send', 'pageview');
-        </script>
+        </script>-->
 
 
-        <style>
+<!--        <style>
             .ad {
                 position: absolute;
                 bottom: 70px;
@@ -629,7 +602,7 @@ author: bootply.com
                 margin-top: 13px;
                 text-align: center;
             }
-        </style>
+        </style>-->
         <div class="ad collapse in">
             <button class="ad-btn-hide" data-toggle="collapse" data-target=".ad">×</button>
             <script async="" type="text/javascript" src="./Bootply snippet - Bootstrap Section scroller template_files/carbon.js" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="http://srv.carbonads.net/ads/click/x/GTND423ICAYD4K77F6Y4YKQWCKSIT23JCTADPZ3JCE7I5K3NCW7I55QKC6BDC27EC67DTK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-img" target="_blank"><img src="./Bootply snippet - Bootstrap Section scroller template_files/23416" alt="" border="0" height="100" width="130" style="max-width:130px;"></a><a href="http://srv.carbonads.net/ads/click/x/GTND423ICAYD4K77F6Y4YKQWCKSIT23JCTADPZ3JCE7I5K3NCW7I55QKC6BDC27EC67DTK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-text" target="_blank">Become an engineer - join MakerSquare's 12-week immersive JavaScript classes.</a></span><a href="http://carbonads.net/" class="carbon-poweredby" target="_blank">ads via Carbon</a></span></div>

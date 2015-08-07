@@ -69,11 +69,11 @@
                     <b>PLANTILLAS </b>
 
                 </a>
-                <a href="pages/BootPlyRender/BootPlyRender.html" class="list-group-item ">
-                    <span class="glyphicon glyphicon-music"></span> BootPly Render 
+                <a href="pages/BootPlyRender/innova01.html" class="list-group-item ">
+                    <span class="glyphicon glyphicon-music"></span> INNOVA 
                     <span class="badge" style="background-color: #6A99DA;">50 %</span>
                 </a>
-                <a href="pages/BootPly/BootPly.jsp" class="list-group-item  nav-pills">
+<!--                <a href="pages/BootPly/BootPly.jsp" class="list-group-item  nav-pills">
                     <span class="glyphicon glyphicon-folder-open"></span> BootPly 
                     <span class="badge" style="background-color: #6A99DA;">10 %</span>
                 </a>
@@ -85,16 +85,16 @@
                 <a href="pages/Sprint8/Spirit8.html" class="list-group-item  ">
                     <span class="glyphicon glyphicon-comment"></span> Sprint8 
                     <span class="badge" style="background-color: #6A99DA;">15 %</span>
-                </a>
+                </a>-->
             </div>
 
-            <a href="elvis.jsp">ELVIS </a>
+<!--            <a href="elvis.jsp">ELVIS </a>-->
 
         </div>
 
     </div>
-    
-    <img src="logoInnova.png"/>
+<!--    
+    <img src="logoInnova.png"/>-->
 
 </body>
 </html>
